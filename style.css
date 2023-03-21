@@ -3,9 +3,27 @@
     margin: 0;
 }
 
+:root {
+    --clr-dark: #333333;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1574451311245-6bceb7e258c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    background-position: fixed;
+    background-size: cover;
+    /* background-color: var(--clr-dark);
+    background-blend-mode: multiply; */
+
+    
+ 
+}
+
 /*Header*/
 header {
-    background-color: black;
+    /* background-image: url(https://www.onlygfx.com/wp-content/uploads/2016/08/abstract-red-paint-1.jpg); */
+    background-size: cover;
+    background-color: transparent;
+    /* background-color: black; */
     /* position: fixed;
     top: 0%;
     left: 0%;
@@ -13,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     /* flex-wrap: wrap; */
-    padding: 10px 20px;
+    padding: 20px 35px ;
 
 }
 
@@ -27,7 +45,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: red; 
+    color: white; 
   }
   
 
@@ -51,6 +69,9 @@ header nav ul li a {
 }
 
 /*Header Ends*/
+
+/*Main*/
+
 
 
     
