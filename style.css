@@ -8,11 +8,12 @@
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1574451311245-6bceb7e258c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    /* background-image: url(https://media.istockphoto.com/id/480685488/vector/human-heart-drawing-line-work.jpg?s=612x612&w=0&k=20&c=9pKpcQbVDq5ByLDWaHBGwWMN5B5GCqDOexzdSAWdn7g=);
     background-position: fixed;
-    background-size: cover;
+    background-size: cover; */
     /* background-color: var(--clr-dark);
     background-blend-mode: multiply; */
+    background-color: white;
 
     
  
@@ -38,14 +39,14 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 50px;
-    color: White;
+    color: red;
     font-family: Arial, sans-serif;
     text-align: start;
   }
 
 header a {
     text-decoration: none;
-    color: white; 
+    color: RED; 
   }
   
 
