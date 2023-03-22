@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css"
-    />
     <title>The Tragic Doll</title>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
+    <!--Header-->
 <header cla>
     <!-- <h1>Welcome to Tragic Doll Page</h1> -->
         <nav>
@@ -23,22 +23,52 @@
         </nav>  
  </header>
  
- <main class="#about">
-    <p>
-        <!-- About the Tragic Doll....... -->
-    </p>
-    <!-- <div id="logo">
-        <img src="./images/logo.jpg" alt="Tragic Doll">
-    </div> -->
- <!--Content-->
- </main>
+ <!--About-->
+    <section class="intro" id="home">
+        <h1>About</h1>
+            <p>
+            About the Tragic Doll.......
+            </p>
+   
+    </section>
+<!--Schedule-->
+    <section class="info-schedule" id="schedule" >
+        <h1>Schedule</h1>
+    </section>
+<!--Gallery-->
+<section class="gallery-container">
+    <h1>Gallery</h1>
+    <div class="gallery">
+      <img id="img1" src="./images/logo.jpg" alt="image 1">
+      <img id="img2" src="./images/logo.jpg" alt="image 2">
+      <img id="img3" src="./images/logo.jpg" alt="image 3">
+    </div>
+    <div class="gallery-navigation">
+    <button class="prev" onclick="prevImage()">&#10094;</button>
+    <button class="next" onclick="nextImage()">&#10095;</button>
+    </div>
+</section>
+  
+<!--Donation-->
+    <section class="info-donation" id="donation" >
+        <h1>Donation</h1>
+    </section>
+<!--Contact-->
+    <section class="info-contact" id="contact" >
+        <h1>Contact</h1>
+    </section>
 
+
+<!--Footer-->
  <footer>
-    <!--Footer-->
+    
  </footer>
         
 
     
-    
+
+ 
+ 
+ <script src="./script.js"></script>
 </body>
 </html>
