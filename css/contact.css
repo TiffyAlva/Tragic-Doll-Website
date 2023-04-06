@@ -11,7 +11,7 @@ body {
     background-image: url(../images/logo.jpg);
     background: cover;
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: bottom left;
     background-size: 35%;
     background-attachment: fixed;
     background-color: white;
@@ -93,6 +93,7 @@ cursor: url('data:image/x-icon;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQA
 form {
     max-width: 500px;
     margin: 0 auto;
+
   }
   
   label, input, textarea {
@@ -109,6 +110,7 @@ form {
   textarea {
     height: 150px;
     padding: 10px;
+    
   }
   
   button {
